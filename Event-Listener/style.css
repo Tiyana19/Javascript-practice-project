@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.container {
+    text-align: center;
+    margin: 10%;
+}
+.container .box{
+    margin: 10%;
+    
+}
+.container .box .content {
+    display: none;
+    padding: 1rem;
+    color: #fff;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+.container .box .btn {
+    margin: 0.5rem;
+    padding: 0.6rem;
+    color: #fff;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.container .box .btn:hover {
+    cursor: pointer;
+}
+.container .box .reveal-content {
+    display: block;
+}
